@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: c5cae9;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationControllers.UpdateStudentFee_Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="163.0" layoutY="14.0" prefHeight="32.0" prefWidth="227.0" text="Update Student">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="63.0" prefHeight="32.0" prefWidth="143.0" text="Name :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentName" layoutX="152.0" layoutY="63.0" prefHeight="32.0" prefWidth="294.0" />
+      <Label layoutX="28.0" layoutY="101.0" prefHeight="32.0" prefWidth="143.0" text="Email : ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentEmail" layoutX="152.0" layoutY="101.0" prefHeight="32.0" prefWidth="294.0" />
+      <Label layoutX="28.0" layoutY="142.0" prefHeight="32.0" prefWidth="143.0" text="Course :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentCourse" layoutX="152.0" layoutY="142.0" prefHeight="32.0" prefWidth="294.0" />
+      <Label layoutX="28.0" layoutY="181.0" prefHeight="32.0" prefWidth="143.0" text="Fee :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentFee" layoutX="152.0" layoutY="181.0" prefHeight="32.0" prefWidth="294.0" />
+            <Label layoutX="28.0" layoutY="219.0" prefHeight="32.0" prefWidth="143.0" text="Due : ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentDue" layoutX="152.0" layoutY="219.0" prefHeight="32.0" prefWidth="294.0" />
+      <Label layoutX="28.0" layoutY="260.0" prefHeight="32.0" prefWidth="143.0" text="Address :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentAddress" layoutX="152.0" layoutY="260.0" prefHeight="75.0" prefWidth="294.0" />
+      <Label layoutX="28.0" layoutY="345.0" prefHeight="32.0" prefWidth="143.0" text="City :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentCity" layoutX="152.0" layoutY="345.0" prefHeight="32.0" prefWidth="294.0" />
+      <Label layoutX="28.0" layoutY="383.0" prefHeight="32.0" prefWidth="143.0" text="State :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentState" layoutX="152.0" layoutY="383.0" prefHeight="32.0" prefWidth="294.0" />
+      <Label layoutX="28.0" layoutY="424.0" prefHeight="32.0" prefWidth="143.0" text="Country :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentCountry" layoutX="152.0" layoutY="424.0" prefHeight="32.0" prefWidth="294.0" />
+      <Label layoutX="28.0" layoutY="463.0" prefHeight="32.0" prefWidth="143.0" text="Contact : ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentContact" layoutX="152.0" layoutY="463.0" prefHeight="32.0" prefWidth="294.0" />
+ 
+      <Button fx:id="updateStudent" layoutX="173.0" layoutY="540.0" mnemonicParsing="false" onAction="#UpdateStudentInfo" prefHeight="46.0" prefWidth="155.0" style="-fx-background-color: blue;" text="Update Student" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      
+      <Button fx:id="backToStudentView" layoutX="14.0" layoutY="551.0" mnemonicParsing="false" onAction="#UpdateStudentInfo" text="View Student">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="backToStudentSection" layoutX="446.0" layoutY="551.0" mnemonicParsing="false" onAction="#UpdateStudentInfo" text="Back" />
+      <Label layoutX="28.0" layoutY="501.0" prefHeight="32.0" prefWidth="143.0" text="Roll No. : ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentId" layoutX="152.0" layoutY="501.0" prefHeight="32.0" prefWidth="115.0" />
+      <Button fx:id="loadRecord" layoutX="354.0" layoutY="505.0" mnemonicParsing="false" onAction="#UpdateStudentInfo" text="Load Record">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      
+      
+
+      
+      
+      
+   </children>
+</AnchorPane>

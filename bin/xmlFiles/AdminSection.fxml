@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="applicationControllers.AdminSectionController">
+   <children>
+      <Button fx:id="addAccount" layoutX="119.0" layoutY="103.0" mnemonicParsing="false" onAction="#AdminSection" prefHeight="51.0" prefWidth="163.0" text="Add Account" />
+      <Button fx:id="adminLogout" layoutX="119.0" layoutY="243.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="163.0" text="Logout" />
+      <Button fx:id="viewAccount" layoutX="119.0" layoutY="175.0" mnemonicParsing="false" onAction="#AdminSection" prefHeight="51.0" prefWidth="163.0" text="View Account" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="28.0" prefHeight="34.0" prefWidth="238.0" text="Admin Section" textFill="#1202f5">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

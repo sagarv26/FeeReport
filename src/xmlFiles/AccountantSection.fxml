@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationControllers.AccountantSectionController">
+   <children>
+      <TitledPane animated="false" layoutY="4.0" prefHeight="410.0" prefWidth="410.0" text="Accountant Section">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </TitledPane>
+      <Button fx:id="addStudent" layoutX="30.0" layoutY="93.0" mnemonicParsing="false" onAction="#AdminSection" prefHeight="51.0" prefWidth="163.0" text="Add Student" />
+      <Button fx:id="accountantLogout" layoutX="129.0" layoutY="253.0" mnemonicParsing="false" onAction="#AdminSection" prefHeight="51.0" prefWidth="163.0" text="Logout" />
+      <Button fx:id="viewStudent" layoutX="224.0" layoutY="93.0" mnemonicParsing="false" onAction="#AdminSection" prefHeight="51.0" prefWidth="163.0" text="View Student" />
+      <Button fx:id="editStudent" layoutX="32.0" layoutY="167.0" mnemonicParsing="false" onAction="#AdminSection" prefHeight="51.0" prefWidth="163.0" text="Edit Student" />
+      <Button fx:id="dueFee" layoutX="226.0" layoutY="167.0" mnemonicParsing="false" onAction="#AdminSection" prefHeight="51.0" prefWidth="163.0" text="Due Fee" />
+   </children>
+</AnchorPane>

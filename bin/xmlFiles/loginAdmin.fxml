@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationControllers.AdminLogin_Controller">
+   <children>
+      <TextField fx:id="adminName" layoutX="187.0" layoutY="72.0" prefHeight="28.0" prefWidth="205.0" />
+      <Text layoutX="40.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :" wrappingWidth="100.693359375">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password :" wrappingWidth="100.693359375">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="adminPassword" layoutX="187.0" layoutY="135.0" prefHeight="30.0" prefWidth="205.0" />
+      <Button fx:id="adminButton" layoutX="189.0" layoutY="260.0" mnemonicParsing="false" onAction="#AdminLogin" prefHeight="45.0" prefWidth="123.0" style="-fx-background-color: black;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Label fx:id="adminStatus" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="375.0" prefHeight="37.0" prefWidth="492.0" text="Status" textFill="#d10606">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

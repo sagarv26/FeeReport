@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar"/>
+	<classpathentry kind="lib" path="D:/Drivers/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/antlr-3.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/asm.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/c3p0-0.9.1.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/hibernate-commons-annotations-5.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/hibernate-core-5.0.4.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/javaee.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/javassist-3.17.1-GA.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/jboss-logging-3.3.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/jta.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/single.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/singleton_ib.jar"/>
+	<classpathentry kind="lib" path="D:/Drivers/hibernatejar/xerces-2.6.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane style="-fx-background-color: #4fc3f7;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Welcome_Controller">
+   <children>
+      <Button fx:id="adminButton" layoutY="432.0" mnemonicParsing="false" onAction="#Switch" prefHeight="47.0" prefWidth="366.0" text="Admin" />
+      <Button fx:id="userButton" layoutX="371.0" layoutY="432.0" mnemonicParsing="false" onAction="#Switch" prefHeight="47.0" prefWidth="366.0" text="User" />
+      <Text layoutX="30.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WellCome" textAlignment="CENTER" wrappingWidth="672.13671875">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Text>
+      <Text fill="#3b0af0" fontSmoothingType="LCD" layoutX="224.0" layoutY="264.0" nodeOrientation="LEFT_TO_RIGHT" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Fee Report" textAlignment="CENTER" wrappingWidth="283.13671875">
+         <font>
+            <Font name="System Bold Italic" size="43.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>

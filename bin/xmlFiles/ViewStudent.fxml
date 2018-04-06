@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="550.0" prefWidth="760.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="applicationControllers.ViewStudent_Controller">
+   <children>
+      <Button fx:id="viewStudent" layoutX="302.0" layoutY="506.0" mnemonicParsing="false" onAction="#ViewStudent" prefHeight="38.0" prefWidth="179.0" text="View Student" />
+      <Button fx:id="backToAddStudent" layoutX="14.0" layoutY="512.0" mnemonicParsing="false" onAction="#ViewStudent" prefHeight="25.0" prefWidth="119.0" text="Back to Add" />
+      <Button fx:id="backToAccountantSection" layoutX="617.0" layoutY="512.0" mnemonicParsing="false" onAction="#ViewStudent" prefHeight="25.0" prefWidth="119.0" text="Back " />
+      <ListView fx:id="studentRollno" layoutY="31.0" prefHeight="454.0" prefWidth="62.0" />
+      <ListView fx:id="studentName_id" layoutX="62.0" layoutY="31.0" prefHeight="454.0" prefWidth="179.0" />
+      <ListView fx:id="studentEmail_id" layoutX="241.0" layoutY="31.0" prefHeight="454.0" prefWidth="167.0" />
+      <ListView fx:id="studentCourse_id" layoutX="408.0" layoutY="31.0" prefHeight="454.0" prefWidth="91.0" />
+      <ListView fx:id="studentPaid_id" layoutX="499.0" layoutY="31.0" prefHeight="454.0" prefWidth="75.0" />
+      <ListView fx:id="studentDue_id" layoutX="572.0" layoutY="31.0" prefHeight="454.0" prefWidth="91.0" />
+      <ListView fx:id="studentContact_id" layoutX="663.0" layoutY="31.0" prefHeight="454.0" prefWidth="99.0" />
+      <Label alignment="CENTER" prefHeight="31.0" prefWidth="62.0" text="Roll No">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="62.0" prefHeight="31.0" prefWidth="179.0" text="Name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="241.0" prefHeight="31.0" prefWidth="167.0" text="Email">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="408.0" prefHeight="31.0" prefWidth="91.0" text="Course">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="499.0" prefHeight="31.0" prefWidth="75.0" text="Paid">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="572.0" layoutY="-1.0" prefHeight="31.0" prefWidth="91.0" text="Due">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="663.0" prefHeight="31.0" prefWidth="91.0" text="Contact">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="updateStudentFee" layoutX="143.0" layoutY="512.0" mnemonicParsing="false" onAction="#ViewStudent" prefHeight="25.0" prefWidth="137.0" text="Update Student Fee" />
+   </children>
+</AnchorPane>
